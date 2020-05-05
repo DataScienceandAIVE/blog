@@ -1,13 +1,14 @@
 ---
 layout: page
-title: About Me
+title: Sobre Nosotros
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+La comunidad de AI en Venezuela tiene como objetivo principal unir a la comunidad de entusiastas y profesionales de la Inteligencia Artificial en Venezuela, así como también contribuir al desarrollo de la inteligencia artificial, la ciencia de datos y la computación en el país. 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+Pueden seguirnos a través de nuestras redes sociales:
 
+[Twitter](https://twitter.com/ia_en_venezuela)
+[Discord](https://discord.com/invite/pkWBKfv)
+[Github](https://github.com/DataScienceandIAVE)
 
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
