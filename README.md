@@ -12,7 +12,7 @@ https://DataScienceandIAVE.github.io/blog/
 _powered by [fastpages](https://github.com/fastai/fastpages)_
 
 
-## What To Do Next?
+## Useful Links
 
 Great!  You have setup your repo.  Now its time to start writing content.  Some helpful links:
 
