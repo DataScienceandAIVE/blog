@@ -5,7 +5,7 @@
 You must save your notebook with the naming convention `YYYY-MM-DD-*.md`.  Examples of valid filenames are:
 
 ```shell
-2020-05-05-semana04-05.md
+2020-05-05-Semana-del-04-al-05-de-mayo.md
 ```
 
 # Resources
