@@ -28,8 +28,8 @@
 
   
       ,"page1": {
-          "title": "About Me",
-          "content": "This is where you put the contents of your About page. Like all your pages, it’s in Markdown format. . This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "title": "Sobre Nosotros",
+          "content": "La comunidad de AI en Venezuela tiene como objetivo principal unir a la comunidad de entusiastas y profesionales de la Inteligencia Artificial en Venezuela, así como también contribuir al desarrollo de la inteligencia artificial, la ciencia de datos y la computación en el país. . Pueden seguirnos a través de nuestras redes sociales: . Twitter Discord Github .",
           "url": "https://datascienceandiave.github.io/blog/about/",
           "relUrl": "/about/",
           "date": ""
