@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Virtual Meeting 09/05",
+            "content": "¡Hola! . IA en Venezuela ya es una realidad pero muchas personas desconocen nuestro propósito y objetivos. No importa, hemos organizado una reunión virtual con ese propósito: . .",
+            "url": "https://datascienceandiave.github.io/blog/markdown/2020/05/05/Primera-reunion.html",
+            "relUrl": "/markdown/2020/05/05/Primera-reunion.html",
+            "date": " • May 5, 2020"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Semana del 04/05 al 09/05",
             "content": "¡Hola! . Semana a semana les recomendaremos actividades y webinars de machine learning. Los de ésta semana son los siguientes: . . Martes 05/05 . Women in Voice Latinx Webinar. . 07:00pm - 09:00pm GMT-4 . Registro en: link . Organizadores: Women in Voice Latinx . Miércoles 06/05 . Nerv Webinar. . Decoding of chemical information from populations of olfactory neurons - Pedro Herrero-Vidal NYU. . 11:30am-01:30pm Hora Venezuela (GMT-4) . Registro en: Nerv site . Sábado 09/05 . Fastbook Reading Session (Chapter 3). Machine Learning Tokio . 06:00am - 08:00am GMT-4 Chapter 3. . Fastbook: fastbook . Reunión Informativa Proyecto IA en Venezuela . 03:00-05:00pm GMT-4 . Nuestra primera reunión informativa para dar a conocer los detalles de la organización y futuros proyectos. . Unirse a través de Zoom: . https://ucab.zoom.us/j/98753231798 . Meeting ID: 987 5323 1798 . Password: 6g?0pEiE .",
             "url": "https://datascienceandiave.github.io/blog/markdown/2020/05/05/Cronograma-semanal.html",
@@ -29,6 +40,22 @@
   
 
   
+      ,"page3": {
+          "title": "Reglas",
+          "content": "¡Regirnos bajo las siguientes normas de convivencia garantizará el éxito de nuestra comunidad! . 1.- Del objetivo de ésta comunidad. . El objetivo principal de la nuestra comunidad es promover la formación de la inteligencia artificial y sus campos afines, así como, desarrollar las habilidades de los miembros mediante la participación grupal. . 2.- De los participantes de la comunidad. . La comunidad espera de cada uno de sus miembros una participación activa, ya sea aportando para el aprendizaje del resto del grupo o debatiendo temas de interés general. Así mismo los miembros deben recordar que nos encontramos entre personas de distintos niveles y capacidad de aprendizaje, por tal motivo tener un comportamiento tolerante y respetuoso es nuestra insignia, también la disposición para ayudar otros debe ser nuestra mayor virtud. . 3.- De los recursos compartidos. . Nosotros como profesionales del desarrollo estamos totalmente en desacuerdo con el plagio y la piratería, por tal motivo es importante que cada miembro que tome la iniciativa de compartir algún recurso debe certificar que la procedencia del mismo sea legal. . 4.- De los canales de comunicación . Cada canal de comunicación tiene su objetivo el cual estará descrito en la descripción, es importante que todos los participantes cumplan con la finalidad de cada canal de comunicación puesto que de esa manera podemos garantizar que estos canales sean efectivos y cumplan su propósito. . 4.1.- Todos los canales de comunicación tendrá el mismo código de conducta. . 4.1.1 .- Evita la publicidad y el spam, información irrelevante no será permitida. 4.1.2 .- Se cortés y participa en la creación de una entorno amigable para todos, recuerda que todos estamos para aprender. 4.1.3 .- Bajo ningún concepto se permitirá un lenguaje inadecuado con ningún participante, comentarios degradantes por raza, religión, cultura u orientación sexual. 4.1.4 .- Evita realizar comentarios “Troll”, ese comportamiento está fuera de los objetivos de ésta comunidad. . 5.- De los administradores . Los administradores serán los responsables de aclarar los estándares de comportamiento aceptables, se espera que tomen las medidas adecuadas y justas como respuesta a cualquier situación irregular. .",
+          "url": "https://datascienceandiave.github.io/blog/rules/",
+          "relUrl": "/rules/",
+          "date": ""
+      }
+      
+  
+
+  
+  
+
+  
+
+  
   
 
   
@@ -37,18 +64,13 @@
   
 
   
-
-  
   
 
   
   
 
   
-  
-
-  
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://datascienceandiave.github.io/blog/robots.txt",
