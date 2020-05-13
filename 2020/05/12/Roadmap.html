@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Title | AI en Venezuela</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación" />
+<meta property="og:description" content="Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación" />
+<link rel="canonical" href="https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html" />
+<meta property="og:url" content="https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html" />
+<meta property="og:site_name" content="AI en Venezuela" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-12T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación","mainEntityOfPage":{"@type":"WebPage","@id":"https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html"},"@type":"BlogPosting","url":"https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html","headline":"Title","dateModified":"2020-05-12T00:00:00-05:00","datePublished":"2020-05-12T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://datascienceandiave.github.io/blog/feed.xml" title="AI en Venezuela" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Title | AI en Venezuela</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación" />
+<meta property="og:description" content="Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación" />
+<link rel="canonical" href="https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html" />
+<meta property="og:url" content="https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html" />
+<meta property="og:site_name" content="AI en Venezuela" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-12T00:00:00-05:00" />
+<script type="application/ld+json">
+{"description":"Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación","mainEntityOfPage":{"@type":"WebPage","@id":"https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html"},"@type":"BlogPosting","url":"https://datascienceandiave.github.io/blog/2020/05/12/Roadmap.html","headline":"Title","dateModified":"2020-05-12T00:00:00-05:00","datePublished":"2020-05-12T00:00:00-05:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://datascienceandiave.github.io/blog/feed.xml" title="AI en Venezuela" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<script type="text/javascript">
+require.config({
+  paths: {
+    jquery: 'https://code.jquery.com/jquery-3.5.0.min',
+    plotly: 'https://cdn.plot.ly/plotly-latest.min'
+  },
+
+  shim: {
+    plotly: {
+      deps: ['jquery'],
+      exports: 'plotly'
+    }
+  }
+});
+</script>
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head><body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">AI en Venezuela</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">Sobre Nosotros</a><a class="page-link" href="/blog/rules/">Reglas</a><a class="page-link" href="/blog/search/">Buscar</a><a class="page-link" href="/blog/categories/">Etiquetas</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-05-12T00:00:00-05:00" itemprop="datePublished">
+        May 12, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/DataScienceandIAVE/blog/tree/master/_notebooks/2020-05-12-Roadmap.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/blog/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/DataScienceandIAVE/blog/master?filepath=_notebooks%2F2020-05-12-Roadmap.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/DataScienceandIAVE/blog/blob/master/_notebooks/2020-05-12-Roadmap.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/blog/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2020-05-12-Roadmap.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p><strong>INTRODUCCIÓN</strong></p>
+</blockquote>
+<p>Si llegaste a este blog es porque te interesa el Machine learning y el Data Science el cual a partir de ahora lo llamaremos ML/DS. Es un tema que se ha puesto muy de moda en los últimos años y por supuesto muchas personas cada día se interesan en aprender sobre éstas disciplinas, sin embargo, para personas de habla hispana sin dominio en el inglés se les dificulta el acceso a la información y a personas sin experiencia añoran ese artículo en el cuál pueda conseguir un hoja de ruta que les indique el camino a seguir.</p>
+<p>Sin lugar a dudas el primer paso a dar en éste mundo es conocer la herramienta principal  con la cual vas trabajar y como quzá sabes o tal vez leiste esa herramienta es el Python, sin embargo python es un lenguaje muy versátil y de propósito general, nostros no quedaremos con la parte de Python que nos ayuda con las estructuras de datos y el análisis númerico.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>PRIMEROS PASOS</p>
+</blockquote>
+<p>Si tu experiencia con Python es nula primero debes empezar por la sintáxis del lenguaje. Por ejemplo:1.   Python y su modo iterativo y modo script.2.   Los identificadores.</p>
+<ol>
+<li>Las palabras reservadas.</li>
+<li>Las identaciones.</li>
+<li>Estructura y comentarios.</li>
+</ol>
+<p>Cuando aprendemos solos se vuelve todo mas complicado y engorroso, lo mas sencillo es cometer errores y dejar puntos sin estudiar que a largo plazo te causarán mucho daño, por ello es importante estar atentos de cada paso que realizas y si tienes la posibilidad de un asesor recurre a el que seguro estará dispuesto a darte consejos para seguir un buen camino.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">):</span>
+  <span class="n">result</span> <span class="o">=</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
+  <span class="k">return</span> <span class="n">result</span>
+
+<span class="n">num1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="mi">1</span>
+
+<span class="n">result</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>2
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Si no entendiste nada en el ejemplo de arriba no te preocupes su principal objetivo es demostrarte varias cosas.</p>
+<p>A diferencias de otros lenguajes los bloques de códigos se separa entre llaves, en Python a esas sangría que engloban ese bloque de código se le llaman identaciones y es muy importante tenerlas en claro porque al principio de nuestra aventura suele darnos muchos problemas.</p>
+<p>Las palabras como por ejemplo <em>def</em> o <em>return</em> son palabras reservadas para realizar acciones predefinidas en el lenguaje, reconocerlas es bastante sencillo porque cambiarán su color dependiendo del editor de codigo que estemos uutilizando.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>LOS DATOS</p>
+</blockquote>
+<p>Luego de tener claro los temas básicos es importante tomar en cuenta que para programar ML/DS las estructuras de datos, puesto que, son la columna vertebral de nuestros algoritmos. Python nos permite trabajar con datos enteros, con coma flotante, cadena de carácteres o string, sin embargo, lo importante es como manejamos estos datos y para ello nuevamente Python no ofrece contenedores tales como:1.   Listas.2.   Arrays.</p>
+<ol>
+<li>Tuplas.</li>
+<li>Diccionarios.</li>
+</ol>
+<p>Esos serán tus principales aliados al momentos de desarrollar los algoritmos, puesto que para analizar grandes volumenes de datos los debemos organizar de alguna manera y eso es lo que nos ofrecen éstos contenedores.</p>
+<p>Cada uno de estos contendores tiene métodos para acceder a sus valores, agregar nuevo o eliminarlos es importate conocer cada uno de éstos metodos.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Define una lista vacia</span>
+
+<span class="n">python_list</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#Las listas en Python se definen entre corchetes []</span>
+
+<span class="n">num1</span> <span class="o">=</span> <span class="mi">1</span> 
+<span class="n">num2</span> <span class="o">=</span> <span class="mi">3</span>
+
+<span class="c1">#Para añadir elementos a la lista utlizamos el metodo append()</span>
+
+<span class="n">python_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">num1</span><span class="p">)</span>
+<span class="n">python_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Haz añadido elementos en la lista de python&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">python_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#Para verificar cuantos elemtos hay en tu lista utilizaos el metodo len()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;La longitud de la lista es: &#39;</span><span class="p">)</span>
+<span class="n">elements_qty</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">python_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">elements_qty</span><span class="p">)</span> 
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#Verifica el indice de un valor específico con el metodo Index()</span>
+
+<span class="n">index</span> <span class="o">=</span> <span class="n">python_list</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El indice del elemento seleccionado es :&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#A la listas puedes añadir string y si quieres añadir el dato en cualquier posicion de la lista utiliza el medoto insert()</span>
+<span class="n">char</span> <span class="o">=</span> <span class="s1">&#39;Hola&#39;</span>
+<span class="n">python_list</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span> <span class="c1">#En este caso insertamos en la posición 0 nuetra variable char</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Esta es tu nueva lista: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">python_list</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#Para acceder a un elemento de la lista</span>
+
+<span class="n">element</span> <span class="o">=</span> <span class="n">python_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Elemento de la lista en la posicion 1: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#Y si quieres eliminar todos los elemetos de la lista utliza el metodo clear()</span>
+<span class="n">python_list</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Ahora esta es tu lista vacia: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">python_list</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Haz añadido elementos en la lista de python
+[1, 3]
+
+La longitud de la lista es: 
+2
+
+El indice del elemento seleccionado es :
+0
+
+Esta es tu nueva lista: 
+[&#39;Hola&#39;, 1, 3]
+
+Elemento de la lista en la posicion 1: 
+1
+
+Ahora esta es tu lista vacia: 
+[]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Éste es solo un pequeño ejemplo del poder que tienen las listas en Pytthon, por ello es importante que aprendas a utilizarlas muy bien y de esa manera puedas sacarle todo el provecho que ellas te dan.</p>
+<p>Las tuplas es otro de los contenedores de datos muy utilizadas en em ML/DS al igual que las listas nos sirven para empaquetar datos de distintos tipos con la diferencia que son inmutables, es decir, no se pueden cambiar o modificar. Son utiles para tener valores separados por coma, como por ejemplo en Python las coordenadas (x, y) las representamos con tuplas. Python te permite tener listas de tuplas y en este caso las tuplas pasan a ser elementos de una lista como la que vimos en el punto anterior.</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Define una tupla, notese que las tuplas se definen con parentesis</span>
+<span class="n">my_tuple</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;Python&#39;</span><span class="p">,</span> <span class="s1">&#39;ML&#39;</span><span class="p">,</span> <span class="s1">&#39;DS&#39;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+
+<span class="c1">#Para contar la cantidad de un elemento X en una tuple utiliza el mentodo count(), Este método tambien es aplicable a listas</span>
+<span class="n">python_count</span> <span class="o">=</span> <span class="n">my_tuple</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;Python&#39;</span><span class="p">)</span>
+<span class="n">ML_count</span> <span class="o">=</span> <span class="n">my_tuple</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;ML&#39;</span><span class="p">)</span>
+<span class="n">five_count</span> <span class="o">=</span> <span class="n">my_tuple</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cantidad de Python en la tupla&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">python_count</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cantidad de ML en la tupla&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ML_count</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cantidad cincos en la tupla&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">five_count</span><span class="p">)</span>
+
+<span class="c1">#El metodo len() nos devuelve la longitud de la tupla</span>
+<span class="n">length</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">my_tuple</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Longitud de la tupla: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">length</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1">#Podemos asignar los elementos de la tupla a variables</span>
+<span class="n">python</span><span class="p">,</span> <span class="n">ml</span><span class="p">,</span> <span class="n">ds</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">my_tuple</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Un ejemplo de ello: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">ml</span><span class="p">,</span> <span class="n">python</span><span class="p">,</span> <span class="n">ds</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="c1">#Podemos crear una lista de tuplas</span>
+
+<span class="n">tuple_1</span> <span class="o">=</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">tuple_2</span><span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">tuple_3</span> <span class="o">=</span> <span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">18</span><span class="p">)</span>
+
+
+<span class="n">tuple_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">tuple_1</span><span class="p">,</span> <span class="n">tuple_2</span><span class="p">,</span> <span class="n">tuple_3</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Lista de tuplas: &#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tuple_list</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cantidad de Python en la tupla
+1
+
+Cantidad de ML en la tupla
+1
+
+Cantidad cincos en la tupla
+2
+
+Longitud de la tupla: 
+5
+
+Un ejemplo de ello: 
+ML Python DS
+
+Lista de tuplas: 
+[(5, 5), (10, 10), (18, 18)]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Con éstos dos ejemplos te invito a seguir esta ruta haciendo los mismo análisis e implementación con los diccionarios y los arrays y no te detengas hasta tener un sólido conocimiento de ello, recuerda que éstos serán los cimientos de tus algoritmos.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>Bucles y condicionales</p>
+</blockquote>
+<p>Son parte fundamental de la programación y es de vital importancía compenderlos de manera microscopica.</p>
+<p>Los condicionales, son la estructura de control del porgrama y con ello puedes ejecutar intrucciones siempre y cuando se cumpla una condición. 
+(<em>if</em>, <em>else</em>, <em>elif</em>)</p>
+<p>Los bucles son bloques de codigo que se ejecutan de manera cíclica hasta cumplir un objetivo. 
+(<em>for</em>, <em>while</em>)</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Podemos hacer print de manera iterativa a los elementos de la lista que definimos anteriormente</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Elementos de una lista&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tuple_list</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+
+<span class="c1">#Podríamos leer el siguiente extracto de código de la siguiente forma:</span>
+<span class="c1">#Para i en my_list imprimir i. Tomar en cuenta que el trabajo del bucle for</span>
+<span class="c1">#es recorrer bien sea lista, o hacer iteraciones un numero predefinido de veces </span>
+<span class="c1">#como veremos ahora.</span>
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;El bucle for como contador&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+ 
+
+
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Función del bucle while&#39;</span><span class="p">)</span>
+<span class="n">var</span> <span class="o">=</span> <span class="mi">0</span> 
+<span class="k">while</span> <span class="n">var</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span><span class="n">var</span><span class="p">)</span>
+  <span class="n">var</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Elementos de una lista
+(5, 5)
+(10, 10)
+(18, 18)
+
+El bucle for como contador
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+Función del bucle while
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">math</span><span class="p">(</span><span class="n">num1</span><span class="p">,</span> <span class="n">num2</span><span class="p">):</span>
+  <span class="k">if</span> <span class="n">num1</span> <span class="o">&gt;</span> <span class="n">num2</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">num1</span> <span class="o">-</span> <span class="n">num2</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">num1</span> <span class="o">+</span> <span class="n">num2</span>
+
+<span class="n">result_1</span> <span class="o">=</span> <span class="n">math</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">result_2</span> <span class="o">=</span> <span class="n">math</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Resultado si se cumple la conducion&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result_1</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Resultado si no se cumple la condicion&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result_2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Resultado si se cumple la conducion
+3
+
+Resultado si no se cumple la condicion
+1
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>Visualización de datos</p>
+</blockquote>
+<p>Es una práctica que nos permite traducir información en nuestros datos que en ocasiones puede estar oculta a un gráfico, pueden ser mapas ó gráficos. El objetivo principal de ésta práctica es análisis de los datos, indetificar patrones o tal vez tendencias, tambien valores a típicos y ésto nos ayudará a decidir que camino vamos a tomar para resolver el problema que vamos a enfrentar.</p>
+<p>Dentro del ML/DS trataremos con muy grandes volúmenes de datos ello hace casi imposible analizar los datos en bruto y sin la ayuda de los gráficos, por esa razón, es importate que las personas que aspiran a ser profesionales en ésta disciplina tengan un sólida base con la visualización de los datos y eso te va a resolver muchos problemas.</p>
+<p>En Python hay librerías que nos ayudan a visualizar los datos y las principales utilizadas por la mayoría de los científicos de datos son <em>Matplotlib</em> y <em>Seaborn</em> sin duda alguna recomiendo profundizar en las implementaciones con éstas librerías.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Es importante que profundices en el tema hasta que seas nivel experto, dejar brechas en el aprendizaje puede cobrar factura más adelante al enfrentarte a problemas complejos, por esa razón te invito a navegar en la web  conseguirás mucha información sobre éstos temas.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>Clases y funciones</p>
+</blockquote>
+<p>Una función es una porción o bloque de código reutilizable que se encarga de realizar una determinada tarea.</p>
+<p>Una clase es un tipo de dato definido por el usuario, y la crear instancias de una clase hace relación a la creación de objetos de ese tipo. Las clases y los objetos son considerados los principales bloques de desarrollo para Python, el cual es un lenguaje de programación orientado a objetos.</p>
+<p>Como puedes notar es algo más complejo de entender pero dominarlas es lo que nos dará esa soltura para escribir código y resolver problemas. Aunque pueda parecer muy complicado no te desanimes al principio son algo engorrosas pero sin duda es la clave para hacerte la vida mucho más sencilla al momento de escribir código.</p>
+<p>Veamos un pequeño ejemplo de clases:</p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Person</span><span class="p">:</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="n">school</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+     
+    <span class="k">def</span> <span class="nf">print_information</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="n">school</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">school</span><span class="p">)</span>
+             
+<span class="n">jorge</span> <span class="o">=</span> <span class="n">Person</span><span class="p">()</span>
+<span class="n">jorge</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;Jorge&#39;</span>
+<span class="n">jorge</span><span class="o">.</span><span class="n">school</span> <span class="o">=</span> <span class="s1">&#39;Universidad de la vida&#39;</span>
+<span class="n">jorge</span><span class="o">.</span><span class="n">print_information</span><span class="p">(</span><span class="n">jorge</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="n">jorge</span><span class="o">.</span><span class="n">school</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Jorge
+Universidad de la vida
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>¿Y ahora que sigue?</p>
+</blockquote>
+<p>Si dominas la sintaxis, tipos de datos, funciones y clases ya estás listo para empezar con los algoritmos básicos de Machine Learning. 
+Mi recomendacion muy personal es que siempre escribas código si aprendes un nuevo algoritmo escribe código, pruebalo hazle cambios y juega, esa es la única forma en la que el conocimiento adquirido quedará impregnado en tu memoria.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Puedes seguirnos en nuestra cuenta de twiter y unirte a nuestra comunidad, tenemos sesiones de estudio grupales, mentores que pueden ayudarte a resolver cualquier duda que tengas.</p>
+<p>twitter: <a href="https://twitter.com/ia_en_venezuela">https://twitter.com/ia_en_venezuela</a></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div><a class="u-url" href="/blog/2020/05/12/Roadmap.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Uniendo a la comunidad de IA en Venezuela y contribuyendo al desarrollo y estudio de la inteligencia artificial, las ciencia de datos y la computación</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/DataScienceandIAVE" title="DataScienceandIAVE"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/ia_en_venezuela" title="ia_en_venezuela"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
